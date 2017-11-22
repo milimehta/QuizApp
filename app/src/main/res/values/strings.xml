@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question_1">1. Synonyms of Verbose</string>
+    <string name="question_2">2. Synonyms of Ubiquitous</string>
+    <string name="question_3">3. Commencement of words with the same letter is called</string>
+    <string name="question_4">4. Fear of open spaces or crowd</string>
+    <string name="question_5">5. Belonging to a foreign country is called a/an</string>
+</resources>

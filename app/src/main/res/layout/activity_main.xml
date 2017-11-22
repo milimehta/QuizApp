@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_style"
+                android:text="@string/question_1" />
+
+            <CheckBox
+                android:id="@+id/question_1_first_checkbox"
+                style="@style/question_checkbox_style"
+                android:text="wordy" />
+
+            <CheckBox
+                android:id="@+id/question_1_second_checkbox"
+                style="@style/question_checkbox_style"
+                android:text="long winded" />
+
+            <CheckBox
+                android:id="@+id/question_1_third_checkbox"
+                style="@style/question_checkbox_style"
+                android:text="concise" />
+
+            <CheckBox
+                android:id="@+id/question_1_fourth_checkbox"
+                style="@style/question_checkbox_style"
+                android:text="terse" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_style"
+                android:text="@string/question_2" />
+
+            <CheckBox
+                android:id="@+id/question_2_first_checkbox"
+                style="@style/question_checkbox_style"
+                android:text="omnipresent" />
+
+            <CheckBox
+                android:id="@+id/question_2_second_checkbox"
+                style="@style/question_checkbox_style"
+                android:text="ever-present" />
+
+            <CheckBox
+                android:id="@+id/question_2_third_checkbox"
+                style="@style/question_checkbox_style"
+                android:text="rare" />
+
+            <CheckBox
+                android:id="@+id/question_2_fourth_checkbox"
+                style="@style/question_checkbox_style"
+                android:text="scarce" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_style"
+                android:text="@string/question_3" />
+
+            <RadioGroup
+                android:id="@+id/question_3_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question_3_first_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Alliteration" />
+
+                <RadioButton
+                    android:id="@+id/question_3_second_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Simile" />
+
+                <RadioButton
+                    android:id="@+id/question_3_third_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Metaphor" />
+
+                <RadioButton
+                    android:id="@+id/question_3_fourth_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Synonym" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_style"
+                android:text="@string/question_4" />
+
+            <RadioGroup
+                android:id="@+id/question_4_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/question_4_first_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Agoraphobia" />
+
+                <RadioButton
+                    android:id="@+id/question_4_second_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Acrophobia" />
+
+                <RadioButton
+                    android:id="@+id/question_4_third_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Cynophobia" />
+
+                <RadioButton
+                    android:id="@+id/question_4_fourth_radio"
+                    style="@style/question_radio_button_style"
+                    android:text="Hydrophobia" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/question_container_style">
+
+            <TextView
+                style="@style/question_style"
+                android:text="@string/question_5" />
+
+            <EditText
+                android:id="@+id/question_5_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:onClick="checkQuiz"/>
+    </LinearLayout>
+</ScrollView>
